@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CurrencyConverterView">
+    <children>
+        <TextField fx:id="Amount" layoutX="39.0" layoutY="104.0" />
+        <TextField fx:id="Result" layoutX="364.0" layoutY="204.0" />
+        <ChoiceBox fx:id="fromCB" layoutX="374.0" layoutY="104.0" prefWidth="150.0" />
+        <ChoiceBox fx:id="toCB" layoutX="38.0" layoutY="200.0" prefWidth="150.0" />
+        <Button fx:id="button" layoutX="258.0" layoutY="155.0" mnemonicParsing="false" text="Convert" />
+        <Label layoutX="39.0" layoutY="84.0" text="Amount to Convert:"/>
+        <Label layoutX="364.0" layoutY="184.0" text="Result:"/>
+        <Label layoutX="374.0" layoutY="84.0" text="From Currency:"/>
+        <Label layoutX="38.0" layoutY="180.0" text="To Currency:"/>
+    </children>
+</AnchorPane>
